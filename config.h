@@ -5,10 +5,11 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Bitstream Vera Sans Mono:pixelsize=32:style=bold:antialias=true:autohint=true";
+static char *font = "Bitstream Vera Sans Mono:size=17:style=bold:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
-    "Inconsolata for Powerline:pixelsize=28:antialias=true:autohint=true"
+    "fontawesome:size=17:antialias=true:autohint=true:style=bold",
+    "Inconsolata for Powerline:size=17:antialias=true:autohint=true:style=bold"
 /*	"Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true", */
 };
 
