@@ -5,7 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Bitstream Vera Sans Mono:size=17:style=bold:antialias=true:autohint=true";
+/* static char *font = "Bitstream Vera Sans Mono:size=17:style=bold:antialias=true:autohint=true"; */
+static char *font = "Victor Mono Bold:size=17:style=bold:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
     "fontawesome:size=17:antialias=true:autohint=true:style=bold",
