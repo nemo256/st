@@ -9,7 +9,7 @@ static char *font = "Fira Code:size=17:style=bold:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
     "fontawesome:size=17:antialias=true:autohint=true:style=bold",
-    "Inconsolata for Powerline:size=17:antialias=true:autohint=true:style=bold"
+    "arabeyes bold:size=17:antialias=true:autohint=true:style=bold"
 /*	"Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true", */
 };
 
