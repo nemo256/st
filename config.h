@@ -8,7 +8,8 @@
 static char *font = "Fira Code:size=17:antialias=true:autohint=true:style=Bold";
 /* Spare fonts */
 static char *font2[] = {
-    "FontAwesome:size=18:antialias=true:autohint=true:style=Bold",
+    /* "FontAwesome:size=17:antialias=true:autohint=true:style=Bold", */
+    "SymbolsNerdFont:size=17:antialias=true:autohint=true:style=Bold",
     "Arab:size=17:antialias=true:autohint=true:style=Bold"
 /*	"Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true", */
 };
