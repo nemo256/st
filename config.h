@@ -5,14 +5,9 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Fira Code:size=17:antialias=true:autohint=true:style=Bold";
+static char *font = "FiraCode Nerd Font:size=17:antialias=true:autohint=true:style=Bold";
 /* Spare fonts */
-static char *font2[] = {
-    /* "FontAwesome:size=17:antialias=true:autohint=true:style=Bold", */
-    "SymbolsNerdFont:size=17:antialias=true:autohint=true:style=Bold",
-    "Arab:size=17:antialias=true:autohint=true:style=Bold"
-/*	"Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true", */
-};
+static char *font2[] = {};
 
 static int borderpx = 0;
 
