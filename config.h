@@ -114,32 +114,29 @@ float alpha = 0.8;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-  "black",
-  "red3",
-  "green3",
-  "yellow3",
-  "blue3",
-  "magenta3",
-  "cyan3",
-  "gray90",
-
-  "gray40",
-  "red",
-  "green",
-  "yellow",
-  "blue",
-  "magenta",
-  "cyan",
-  "white",
-  
+	"#000000",  /* 0: black */
+	"#404040",  /* 1: dark gray (instead of red3) */
+	"#404040",  /* 2: dark gray (instead of green3) */
+	"#404040",  /* 3: dark gray (instead of yellow3) */
+	"#404040",  /* 4: dark gray (instead of blue3) */
+	"#404040",  /* 5: dark gray (instead of magenta3) */
+	"#404040",  /* 6: dark gray (instead of cyan3) */
+	"#c0c0c0",  /* 7: light gray (instead of gray90) */
+	"#808080",  /* 8: gray (instead of gray40) */
+	"#808080",  /* 9: gray (instead of red) */
+	"#808080",  /* 10: gray (instead of green) */
+	"#808080",  /* 11: gray (instead of yellow) */
+	"#808080",  /* 12: gray (instead of blue) */
+	"#808080",  /* 13: gray (instead of magenta) */
+	"#808080",  /* 14: gray (instead of cyan) */
+	"#ffffff",  /* 15: white */
 	[255] = 0,
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#5f00af", /* 256 -> cursor */
-	"#555555", /* 257 -> rev cursor*/
-	"#000000", /* 258 -> bg */
-	"#808080", /* 259 -> fg */
+	"#404040",  /* 256 -> cursor */
+	"#c0c0c0",  /* 257 -> reverse cursor */
+	"#000000",  /* 258 -> background */
+	"#c0c0c0",  /* 259 -> foreground */
 };
-
 
 /*
  * Default colors (colorname index)
